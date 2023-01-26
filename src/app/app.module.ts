@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GenerateCvComponent } from './generate-cv/generate-cv.component';
+import { GenerateCvModule } from './generate-cv/generate-cv.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    GenerateCvComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GenerateCvModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
