@@ -32,6 +32,7 @@ import { GenerateCvRoutingModule } from './generate-cv-routing.module';
     FormsModule,
     ReactiveFormsModule,
     FlexLayoutModule,
+    
     RouterModule,
     GenerateCvRoutingModule
   ],
